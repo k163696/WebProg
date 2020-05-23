@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Guessing Game Jawad Rehman d70aaf10</title>
+<title>Jawad Rehman d70aaf10</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
@@ -16,7 +16,7 @@
     echo("Your guess is too low");
   } else if ( $_GET['guess'] > 42 ) {
     echo("Your guess is too high");
-  } else {
+  } else if( $_GET['guess'] == 42 ) {
     echo("Congratulations - You are right");
   }
 ?>
